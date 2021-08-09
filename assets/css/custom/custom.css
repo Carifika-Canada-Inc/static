@@ -1,0 +1,487 @@
+
+/* Custom css where css are writing or customized */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold !important;
+}
+
+h4 {
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500 !important;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500 !important;
+}
+/* line style */
+
+li {
+    list-style: none !important;}
+
+/* buttons and backgrounds and colors */
+.bg-carifika {
+    background-color: #c5AD57 !important;}
+  
+.bg-carifika-o {
+    background: #2f4858;}
+
+.bg-blog {
+    background: #fcfcfb !important;}
+    
+.bg-ccc {
+    background-color: #ccc;
+}
+  
+.bg-about {
+    background-color: #fBfBf8;}
+
+.bg-white {
+    background-color: #fff !important;}
+
+.on-cgold {
+    color: #c5ad57 !important;}
+
+.on-blog {
+    color: #2F4858 !important;}
+    
+.big-btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.big-btn.hero-start {   
+    padding: 1rem 2rem;
+}
+  
+.mid-btn {
+    padding: 0.45rem 2.3rem;
+    border-radius: 4px;
+    font-size: 16px;
+}
+  
+.btn-sm {
+    padding: 0.8rem 2.5rem;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.btn-mini {
+    padding: 0.15rem 1rem;
+    border-radius: 3px;
+    font-size: 14px;
+}
+  
+.btn.ghost {
+    background-color: transparent;
+}
+  
+.btn.ghost.cord-white {
+    color: #fff;
+    border: 1px solid #fff;
+}
+  
+
+/* Media queries for all screen sizes */
+
+
+@media(max-width:1500px){
+    
+}
+
+@media (max-width:1199px){
+    
+    .main-nav .nav .nav-item.last{
+        margin-left: 5px;
+    }
+    .main-nav .nav .nav-item{
+        margin-right: 0px;
+        margin: 0.5rem 0;
+    }
+    
+}
+
+@media (min-width: 992px){
+  
+
+    
+}
+
+@media (max-width:991px){
+
+}
+
+@media (min-width:991px){
+  .hide-desktop{
+    display: none !important;
+    }
+}
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /* hide object on ipad view only */
+  .hide-ipad{
+    display: none !important;
+  }
+
+    .container {
+        padding: 0 15px !important;
+    }
+
+    .abt-img img{
+      display: none !;
+    }
+
+/* tabs for services */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none !important;
+      outline: none !important;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+  }
+
+  /* third section */
+
+  .card-title {
+    font-size: 12px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+}
+
+.card-text {
+  font-size: 13px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+  .carifika-service h1  {
+    font-weight: 600 !important;
+    font-size: 25px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.carifika-service span {
+  font-weight: 600 !important;
+  font-size: 25px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+  
+.card-deck .card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 0.75rem !important;
+  margin-bottom: 0;
+  margin-left: 0.75rem !important;
+}
+
+/* abiout */
+.abt-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 1.5rem 1.0rem;
+  position: relative;
+  background-color: #fff !important;
+}
+.c-abt {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+  position: relative;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+}
+
+@media (min-width: 769px){
+  .card-deck .card {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 1 0 0%;
+      flex: 1 0 0%;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-right: 2.75rem !important;
+      margin-bottom: 0;
+      margin-left: 2.75rem !important;
+  }
+
+  .card-deck .car-head {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 3.75rem !important;
+    margin-bottom: 0;
+    margin-left: 3.75rem !important;
+}
+}
+
+
+@media (min-width: 576px){
+    
+  }
+  
+  @media screen and (max-width:576px){
+
+    /* nav */
+    .navbar .ul {
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 1.2rem;
+        background-color: #C5AD57 !important;
+        border: none !important;
+      
+      }
+      .navbar-brand img{
+        max-width: 82%;
+        height: 94px;
+      }
+
+      .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0rem;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0.5);
+        border-color: transparent;
+      }
+
+    /* hero */
+    .hero-section img{
+     display: none !important;
+      }
+
+      .hero-title img {
+        position: absolute;
+        z-index: -1;
+        top: 27px !important;
+        left: -6px !important;
+    }
+    .hero-title h1{
+        margin-top: 1em !important;
+        font-size: 40px !important;
+      }
+
+    .hero-title p{
+        margin-top: 0em !important;
+      }
+
+    .hero .ui-group-button{
+        margin-top: 0em !important;
+    }
+      
+      .ui-wrapper-large {
+        width: 100%;
+        padding: 0em 0;
+    }
+
+    /* carifika team section */
+    .carifika-team h1 {
+        font-weight: 600 !important;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px !important;
+    }
+
+    .team p{
+        font-size: 13px !important;
+    }
+
+    /* carifka services */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none !important;
+        outline: none !important;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px !important
+    }  
+    .card-deck .card {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 1 0 0%;
+      flex: 1 0 0%;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-right: 0rem !important;
+      margin-bottom: 0;
+      margin-top: 1em;
+      margin-left: 0rem !important;
+    }
+
+    .carifika-service h1{
+        font-size: 34px !important;
+    }
+    .carifika-service h1 span{
+        font-size: 30px !important;
+    }
+
+    /* about */
+    .c-abt {
+      box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+      position: relative;
+      margin-bottom: 1.5rem;
+      width: 100%;
+  }
+
+  .carifika-about {
+    top: 57px;
+    background-color: #2f4858;
+    /* width: 105px; */
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 0px;
+    padding-top: 46px;
+    padding-bottom: 29px;
+}
+
+.count p {
+  color: #2F4858;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+.count h1 {
+  font-weight: bolder !important;
+  color: #2F4858;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+.teeam {
+  border: 1px solid #EFEFEF !important;
+  background: transparent !important;
+  border-radius: 10px !important;
+  padding-bottom: 9em !important;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 1.5rem 2.5rem;
+  position: relative;
+}
+
+.teaam img {
+  width: 24% !important;
+  position: relative;
+  top: 3em;
+  z-index: 1;
+  left: 9em;
+}
+.soc {
+  width: 41% !important;
+  position: relative;
+  left: -34em;
+  top: 4em;
+  justify-content: space-between;
+}
+
+}
+  
+
+
+/* smaller screen sizes  */
+  @media screen and (max-width:375px){
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px !important;
+  }
+
+  .carifika-about {
+    top: 57px;
+    background-color: #2f4858;
+    /* width: 105px; */
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 0px;
+    padding-top: 46px;
+    padding-bottom: 29px;
+}
+.teeam {
+  border: 1px solid #EFEFEF !important;
+  background: transparent !important;
+  border-radius: 10px !important;
+  padding-bottom: 13em !important;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 1.5rem 2.5rem;
+  position: relative;
+}
+.teaam img {
+  width: 24% !important;
+  position: relative;
+  top: 2em;
+  z-index: 1;
+  left: 9em;
+}
+.soc {
+  width: 41% !important;
+  position: relative;
+  left: -34em;
+  top: 4em;
+  justify-content: space-between;
+}
+}
+
+
