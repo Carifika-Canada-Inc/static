@@ -16,9 +16,11 @@ Run `npx hint . fix` to automatically fix errors
 - CSS style
 
 Run `npx stylelint "**/*.{css,scss}"` to find errors
+
 Run `npx stylelint "**/*.{css,scss}" --fix` to automatically fix css errors
 
 -  JavaScript (Eslint)
 
 Run `npx eslint .` to find errors
+
 Run `npx eslint . --fix` to automatically fix javascript errors
