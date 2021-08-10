@@ -56,7 +56,8 @@ a {
   }
 
   .main-nav .nav .nav-item {
-    margin: 0 0.5rem 0 0;
+    margin: 0.5rem 0;
+    margin-right: 0;
   }
 }
 
