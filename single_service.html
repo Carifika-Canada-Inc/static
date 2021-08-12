@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="assets/css/boostrap/bootstrap.min.css">
     <!-- external icons link -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+          <!-- OWL-CAROUSEL -->
+          <link rel="stylesheet" href="assets/css/third-party/owl.carousel.css" />
+          <link rel="stylesheet" href="assets/css/third-party/owl.carousel.min.css" />
+          <link rel="stylesheet" href="assets/css/third-party/owl.theme.default.css" />
     <!-- css file for this single service page -->
     <link rel="stylesheet" href="assets/css/pages/single-service.css">
     <title>service name - carifika</title>
@@ -68,7 +72,7 @@
                 <h2 class="aside-title">Blog posts & Updates</h2>
                 <a href="#" class="aside-sub_title">View all blog posts</a>
                 <div class="blog-posts">
-                    <!-- blog one -->
+            
                     <div class="blog-slide">
                         <div class="card">
                             <!-- Image thumbnail. remove this div element and add img element with the image file -->
@@ -87,8 +91,9 @@
                             </div>
                         </div>
                     </div>
+                
 
-                    <!-- blog two -->
+                   
                     <div class="blog-slide">
                         <div class="card">
                             <!-- Image thumbnail. remove this div element and add img element with the image file -->
@@ -107,7 +112,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- blog three -->
+              
+                
                     <div class="blog-slide">
                         <div class="card">
                             <!-- Image thumbnail. remove this div element and add img element with the image file -->
@@ -126,11 +132,61 @@
                             </div>
                         </div>
                     </div>
+                 
                 </div>
             </div>
         </aside>
     </main>
     <!-- Bootstrap js link -->
     <script src="assets/js/bootstrapjs/bootstrap.min.js"></script>
+
+    <!-- <script src="assets/js/pages/aos.js"></script> -->
+    <script>
+        AOS.init({
+          easing: "ease-out-back",
+          duration: 1000,
+        });
+    
+        $(".bloog").owlCarousel({
+          loop: true,
+          margin: 100,
+          nav: false,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+              items: 3,
+            },
+          },
+        });
+    
+        $(".ssn-slide").owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: false,
+          items: 2,
+          autoplay: true,
+          autoplayTimeout: 4000,
+          animateIn: "fadeIn",
+          animateOut: "fadeOut",
+          dots: false,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            480: {
+              items: 2,
+            },
+            1000: {
+              items: 2,
+            },
+          },
+          // animateIn: 'fadeIn'
+        });
+      </script>
 </body>
 </html>
