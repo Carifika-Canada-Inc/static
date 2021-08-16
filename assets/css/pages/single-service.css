@@ -88,27 +88,18 @@ body {
 
 /* aside blogposts stylings */
 .aside {
-  padding: 2.5rem 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #fafaff;
   margin-top: 2rem;
+  padding: 2rem 1rem;
 }
 
 /* aside news paper image */
 .aside img {
-  width: 10%;
-}
-
-/* aside news paper image on screen of < 480px */
-
-/* i change them like that because sometimes it get bigger */
-@media screen and (max-width: 480px) {
-  .aside img {
-    width: 18%;
-  }
+  width: 15%;
 }
 
 /* all the elements after the image are in this class selector of aside-header */
@@ -155,7 +146,7 @@ body {
 }
 
 .blog-slide {
-  margin: 1rem;
+  margin: 2rem 0;
 }
 
 /* image preview of the post, change the sylings after if you get the image */
@@ -183,7 +174,7 @@ body {
 /* main post stylings */
 .post {
   color: var(--primary-clr);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 400;
   margin: 0.9rem 0;
   letter-spacing: 0.01rem;
@@ -217,24 +208,7 @@ body {
     grid-template-columns: 1fr 350px;
     justify-content: space-between;
   }
-
-  /* aside blogposts stylings */
   .aside {
-    background-color: #fafaff;
-    padding: 2rem 1rem;
-  }
-
-  /* aside news paper image */
-  .aside img {
-    width: 15%;
-  }
-
-  .blog-slide {
-    margin: 2rem 0;
-  }
-
-  /* main post stylings */
-  .post {
-    font-size: 1.05rem;
+    display: flex;
   }
 }
