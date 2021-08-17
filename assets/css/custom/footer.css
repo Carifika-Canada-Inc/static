@@ -1,0 +1,24 @@
+
+/* footer */
+.footer {
+  background: #2f4858 !important;
+}
+
+.footer-image img {
+  width: 184px !important;
+}
+
+.footer li {
+  padding-bottom: 5px;
+  color: #ccc !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer h4 {
+  font-weight: 600 !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer a {
+  color: #ccc !important;
+}

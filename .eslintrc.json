@@ -22,6 +22,9 @@
     "dist/",
     "build/",
     "assets/js/bootstrapjs",
-    "assets/js/jquery"
+    "assets/js/jquery",
+    "assets/js/third-party",
+    "assets/js/owl-carousel",
+    "assets/js/aos"
   ]
 }
