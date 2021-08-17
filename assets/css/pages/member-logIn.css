@@ -1,7 +1,14 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
 .head-text {
   width: 23rem;
   margin-bottom: 70px;
   margin-top: 100px;
+  color: #505050;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -10,6 +17,11 @@
   margin: auto;
   background-color: #ffff;
   font-family: "Montserrat", sans-serif;
+}
+
+.text {
+  width: 30rem;
+  margin: auto;
 }
 
 input[type="email"] {
@@ -29,14 +41,13 @@ input[type="password"] {
   margin-bottom: 40px;
 }
 
-a {
+.anchor {
   color: #428bca;
   text-decoration: none;
-  margin-top: -5px;
 }
 
-a:hover,
-a:focus {
+.anchor:hover,
+.anchor:focus {
   color: #2a6496;
   text-decoration: underline;
 }
@@ -63,4 +74,8 @@ a:focus {
 .form-control:focus {
   border-color: #c5ad57;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(197, 173, 87, 0.5);
+}
+
+main {
+  margin-bottom: 80px;
 }

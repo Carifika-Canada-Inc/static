@@ -6,69 +6,341 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/boostrap/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/custom/custom.css" />
+    <link rel="stylesheet" href="assets/css/pages/services.css" />
+    <link rel="stylesheet" href="assets/css/pages/responsive.css" />
+    <link rel="stylesheet" href="assets/css/pages/about.css" />
+    <link rel="stylesheet" href="assets/css/custom/footer.css" />
+    <link rel="stylesheet" href="assets/css/custom/header.css" />
     <link rel="stylesheet" href="assets/css/pages/member-signUp.css" />
-    <title>Document</title>
+
+    <!-- External css library -->
+    <link
+      href="https://res.cloudinary.com/okiri/raw/upload/v1628417957/style_css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/okiri/raw/upload/v1628417739/webfix_css"
+    />
+
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css"
+    />
+    <!-- OWL-CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <title>Member Signup</title>
   </head>
   <body>
-    <div class="container form-box">
-      <div class="container">
-        <h2 class="head-text">Create an account as regular member</h2>
-      </div>
-      <div class="container">
-        <form class="row g-3">
-          <div class="col-md-6 ">
-            <label for="firstName" class="form-label">Firstname</label>
-            <input type="text" class="form-control" id="firstName" />
+    <!--top header-->
+    <header>
+      <!--most top info -->
+
+      <div class="ui-hide-mobile-only first-nav flex">
+        <!-- social images here -->
+        <div class="p-4 d-flex justify-content-start">
+          <div class="pr">
+            <a href="#" class="in imgs pr-1"></a>
+            <a href="#" class="tw imgs pr-1"></a>
+            <a href="#" class="ig imgs pr-1"></a>
+            <a href="#" class="fb imgs pr-1"></a>
           </div>
-          <div class="col-md-6">
-            <label for="lastName" class="form-label">Lastname</label>
-            <input type="text" class="form-control" id="lastName" />
+          <div class="c-light">
+            <p>example@domain.org</p>
           </div>
-          <div class="col-6">
-            <label for="country" class="form-label">Country</label>
-            <input type="text" class="form-control" id="country" />
-          </div>
-          <div class="col-6">
-            <label for="city" class="form-label">City</label>
-            <input type="text" class="form-control" id="city" />
-          </div>
-          <div class="col-sm-12">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" />
-          </div>
-          <div class="col-sm-12">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" />
+        </div>
+        <!-- other panels here -->
+        <div class="p-4 d-flex justify-content-end">
+          <div>
+            <div class="nav-b">
+              <a href="#">FAQ</a>
+            </div>
           </div>
 
-          <div class="row g-0 req">
-            <div class="col-6">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
-                fill="currentColor"
-                class="bi bi-dot"
-                viewBox="0 0 16 16"
+          <div>
+            <div class="nav-b">
+              <a href="#">What we do</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="nav-b">
+              <a href="#">Contact US</a>
+            </div>
+          </div>
+
+          <div class="pr">
+            <div class="nav-c dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                >Country</a
               >
-                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-              </svg>
-              <p class="inline">One lowercase character</p>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pr c-light">
+            <p>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="13"
+                  fill="currentColor"
+                  class="bi bi-lock-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"
+                  />
+                </svg>
+              </span>
+              Login
+            </p>
+          </div>
+
+          <div class="c-light">
+            <p>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-person-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  />
+                </svg>
+              </span>
+              Sign Up
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- End most top info -->
+
+      <!-- Nav -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light top-navbar"
+        data-toggle="sticky-onscroll"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/car-logo.svg" alt="africa" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link ui-hide-mobile-only" href="#">HOME</a>
+                <a class="nav-link ui-show-mobile-only mx-3" href="#">HOME</a>
+              </li>
+
+              <li class="nav-item dropdown mx-3">
+                <a class="nav-link ui-show-mobile-only" href="#">MEMBERSHIP</a>
+                <a
+                  class="nav-link dropdown-toggle ui-hide-mobile-only"
+                  href="#"
+                  id="navbardrop"
+                  data-toggle="dropdown"
+                >
+                  MEMBERSHIP
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Membership Packages</a>
+                  <a class="dropdown-item" href="#">Regular Membership</a>
+                  <a class="dropdown-item" href="#">Partner membership</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown mx-3">
+                <a class="nav-link ui-show-mobile-only" href="#">SERVICES</a>
+
+                <a
+                  class="nav-link dropdown-toggle ui-hide-mobile-only"
+                  href="#"
+                  id="navbadrop"
+                  data-toggle="dropdown"
+                >
+                  SERVICES
+                </a>
+                <div class="abt-line-serv ui-hide-mobile-only"></div>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="services.html"
+                    >All Our Services</a
+                  >
+                  <a class="dropdown-item" href="it_support.html">IT Support</a>
+                  <a class="dropdown-item" href="graphic_design.html"
+                    >Graphic Design</a
+                  >
+                  <a class="dropdown-item" href="web_development.html"
+                    >Web Development</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle ui-hide-mobile-only"
+                  href="#"
+                  id="navbydrop"
+                  data-toggle="dropdown"
+                >
+                  ARMS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a class="nav-link ui-show-mobile-only mx-3" href="about.html"
+                  >ABOUT US</a
+                >
+                <a
+                  class="nav-link dropdown-toggle ui-hide-mobile-only"
+                  href="about.html"
+                  id="navbajrdrop"
+                  data-toggle="dropdown"
+                >
+                  ABOUT US
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="about.html">Who we are</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+              </li>
+
+              <li class="nav-item ui-hide-mobile-only">
+                <a class="btn big-btn bg-carifika onwhite" href="#">DONATE</a>
+              </li>
+              <li class="nav-item mx-3 ui-hide-mobile-only">
+                <a class="btn big-btn bg-carifika ml-5 onwhite" href="#"
+                  >GET A QUOTE</a
+                >
+              </li>
+            </ul>
+            <ul class="d-flex">
+              <li class="nav-item">
+                <a
+                  class="btn bg-carifika fs-15 onwhite mx-3 ui-show-mobile-only"
+                  href="#"
+                  >Log in
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn bg-carifika-o fs-15 onwhite ui-show-mobile-only"
+                  href="#"
+                  >Sign up</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Nav  -->
+    </header>
+
+    <main>
+      <div class="container text">
+        <h2 class="head-text">Create an account as regular member</h2>
+      </div>
+
+      <div class="container form-box">
+        <div class="container">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="firstName" class="form-label">Firstname</label>
+              <input type="text" class="form-control" id="firstName" />
+            </div>
+            <div class="col-md-6">
+              <label for="lastName" class="form-label">Lastname</label>
+              <input type="text" class="form-control" id="lastName" />
             </div>
             <div class="col-6">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
-                fill="currentColor"
-                class="bi bi-dot"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-              </svg>
-              <p class="inline">One special character</p>
+              <label for="country" class="form-label">Country</label>
+              <input type="text" class="form-control" id="country" />
             </div>
             <div class="col-6">
+              <label for="city" class="form-label">City</label>
+              <input type="text" class="form-control" id="city" />
+            </div>
+            <div class="col-sm-12">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="col-sm-12">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+
+            <div class="row g-0 req">
+              <div class="col-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="currentColor"
+                  class="bi bi-dot"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                </svg>
+                <p class="inline">One lowercase character</p>
+              </div>
+              <div class="col-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="currentColor"
+                  class="bi bi-dot"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                </svg>
+                <p class="inline">One special character</p>
+              </div>
+              <div class="col-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="40"
@@ -107,13 +379,116 @@
                 </svg>
                 <p class="inline">One number</p>
               </div>
-          </div>
+            </div>
 
-          <div class="col-12">
-            <button type="submit" class="btn">Create an Account</button>
-          </div>
-        </form>
+            <div class="col-12">
+              <button type="submit" class="btn">Create an Account</button>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer pt-5 ui-full-bg-norm bg-carifika-o">
+      <div class="ui-wrapper-small">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 footer-image">
+              <img class="" src="assets/images/img@footer.svg" alt="logo" />
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <h4 class="font-intersemibold px-4 fs-20 onwhite mrgb1">
+                Get in touch
+              </h4>
+              <ul>
+                <li class="link-underlined onmineshaft">
+                  info@examplemail.com
+                </li>
+                <li class="link-underlined onmineshaft">022. 023. 220. 024</li>
+                <li class="link-underlined onmineshaft">
+                  St18, Toronto, Canada
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <h4 class="font-intersemibold fs-20 px-4 onwhite mrgb1">
+                Our Services
+              </h4>
+              <ul>
+                <li>
+                  <a href="/check-back" class="link-underlined hover"
+                    >Consectetur</a
+                  >
+                </li>
+                <li>
+                  <a href="/check-back" class="link-underlined hover"
+                    >Reprehendreit</a
+                  >
+                </li>
+                <li>
+                  <a href="/check-back" class="link-underlined hover"
+                    >Exercitation</a
+                  >
+                </li>
+                <li>
+                  <a href="/check-back" class="link-underlined hover"
+                    >Exercitation</a
+                  >
+                </li>
+                <li>
+                  <a href="/check-back" class="link-underlined hover"
+                    >Reprehendreit</a
+                  >
+                </li>
+                <li>
+                  <a href="/check-back" class="link-underlined hover"
+                    >Exercitation</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-2 col-sm-6 foot-er">
+              <h4 class="font-intersemibold fs-20 onwhite px-4 mrgb">
+                Company
+              </h4>
+              <ul>
+                <li>
+                  <a href="/about" class="link-underlined hover">Membership</a>
+                </li>
+                <li>
+                  <a href="/contact" class="link-underlined hover">Services</a>
+                </li>
+                <li>
+                  <a href="/check-back" class="link-underline hover">FAQs</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-2 col-sm-6">
+              <h4 class="font-intersemibold onwhite fs-20 mrgb px-4">
+                More Pages
+              </h4>
+              <ul>
+                <li>
+                  <a href="/about" class="link-underlined hover">About</a>
+                </li>
+                <li>
+                  <a href="/contact" class="link-underlined hover">Location</a>
+                </li>
+                <li>
+                  <a href="/check-back" class="link-underlined hover"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
