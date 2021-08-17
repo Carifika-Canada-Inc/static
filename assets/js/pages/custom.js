@@ -3,10 +3,10 @@
 /* eslint-disable no-undef */
 
 function openCity(evt, cityName) {
-  let i; let tabcontent; 
+  let i; let tabcontent;
   let tablinks;
   tabcontent = document.getElementsByClassName('tabcontent');
-  
+
   for (i = 0; i < tabcontent.length; i += 1) {
     tabcontent[i].style.display = 'none';
   }

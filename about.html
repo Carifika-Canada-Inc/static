@@ -8,10 +8,13 @@
   <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css"/>
   <link rel="stylesheet" href="assets/css/custom/custom.css"/>
   <link rel="stylesheet" href="assets/css/pages/index.css"/>
-  <link rel="stylesheet" href="assets/css/pages/responsive.css"/>
+  
   <link rel="stylesheet" href="assets/css/pages/about.css"/>
   <link rel="stylesheet" href="assets/css/custom/footer.css"/>
   <link rel="stylesheet" href="assets/css/custom/header.css"/>
+  <link rel="stylesheet" href="assets/css/pages/services.css" />
+
+  <link rel="stylesheet" href="assets/css/pages/responsive.css"/>
       <!-- External css library -->
       <link href="assets/css/third-party/style_css.css" rel="stylesheet" type="text/css" />
       <link rel="stylesheet" href="assets/css/third-party/webfix_css.css" />
@@ -27,106 +30,164 @@
   <title>Carifika || Home</title>
 </head>
 <body>
-    <header class="header-top">
-        <!--most top info -->
-  
-        <!-- End most top info -->
-  
-        <!-- Nav -->
-        <nav class="navbar navbar-expand-lg navbar-light top-navbar" data-toggle="sticky-onscroll">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="assets/images/car-logo.svg" alt="africa" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-  
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link onwhite" href="index.html">HOME</a>
-                </li>
-  
-                <li class="nav-item dropdown onwhite mx-3">
-                  <a class="nav-link ui-show-mobile-only onwhite" href="#">MEMBERSHIP</a>
-                  <a class="nav-link dropdown-toggle ui-hide-mobile-only" href="#" id="navbardrop" data-toggle="dropdown">
-                    MEMBERSHIP
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown mx-3 onwhite">
-                  <a class="nav-link ui-show-mobile-only onwhite" href="#">SERVICES</a>
-                  <a class="nav-link dropdown-toggle ui-hide-mobile-only" href="#" id="navbadrop" data-toggle="dropdown">
-                    SERVICES
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown mx-3 onwhite">
-                  <a class="nav-link dropdown-toggle ui-hide-mobile-only onwhite" href="#" id="navbydrop" data-toggle="dropdown">
-                    ARMS
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown me-3 onwhite">
-                  <a class="nav-link ui-show-mobile-only onwhite" href="#">ABOUT US</a>
-                  <a class="nav-link dropdown-toggle ui-hide-mobile-only" href="#" id="navbajrdrop" data-toggle="dropdown">
-                    ABOUT US
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                  </div>
-                </li>
-  
-                <li class="nav-item ui-hide-mobile-only">
-                  <a class="btn big-btn bg-carifika onwhite " href="#">GET A QUOTE</a>
-                </li>
-                <li class="nav-item mx-3 ui-hide-mobile-only">
-                  <a class="btn big-btn bg-carifika ml-5 onwhite" href="#">GET A QUOTE</a>
-                </li>
-              </ul>
-              <ul class="d-flex ui">
-                <li class="nav-item">
-                  <a class="btn bg-carifika fs-15 onwhite ui-show-mobile-only" href="#">Log in </a>
-                </li>
-                <li class="nav-item">
-                  <a class="btn bg-carifika-o fs-15 onwhite ui-show-mobile-only" href="#">Sign up</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-  
-        <!--Nav  -->
-        <div class="container">
-          <div class="ui-wrapper-xlarge">
-            <div class="row">
-              <div class="col-md-8 text-center mx-auto" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
-                <h2 class="mrgt3 onwhite fs-46">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-  
-                <div class="mrgt3 mrgb4">
-                  <a href="" class="btn big-btn onwhite fs-16 bg-carifika on-white font-interregular">Become a member</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+        <!--top header-->
+        <header>
+          <!--most top info -->
 
+          <div class="ui-hide-mobile-only first-nav flex">
+              <!-- social images here -->
+              <div class="p-4 d-flex justify-content-start">
+                  <div class="pr">
+                      <a href="#" class="in imgs pr-1"></a>
+                      <a href="#" class="tw imgs pr-1"></a>
+                      <a href="#" class="ig imgs pr-1"></a>
+                      <a href="#" class="fb imgs pr-1"></a>
+                  </div>
+                  <div class="c-light">
+                      <p>example@domain.org</p>
+                  </div>
+              </div>
+              <!-- other panels here -->
+              <div class="p-4 d-flex justify-content-end">
+                  <div>
+                      <div class="nav-b">
+                          <a href="#">FAQ</a>
+                      </div>
+                  </div>
+
+                  <div>
+                      <div class="nav-b">
+                          <a href="#">What we do</a>
+                      </div>
+                  </div>
+
+                  <div>
+                      <div class="nav-b">
+                          <a href="#">Contact US</a>
+                      </div>
+                  </div>
+
+                  <div class="pr">
+                      <div class="nav-c dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Country</a>
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Link 1</a>
+                              <a class="dropdown-item" href="#">Link 2</a>
+                              <a class="dropdown-item" href="#">Link 3</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="pr c-light">
+                      <p>
+                          <span>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                              </svg>
+                          </span>
+                          Login
+                      </p>
+                  </div>
+
+                  <div class="c-light">
+                      <p>
+                          <span>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                              </svg>
+                          </span>
+                          Sign Up
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <!-- End most top info -->
+
+          <!-- Nav -->
+          <nav class="navbar navbar-expand-lg navbar-light top-navbar" data-toggle="sticky-onscroll">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img src="assets/images/car-logo.svg" alt="africa" />
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a class="nav-link ui-hide-mobile-only" href="#">HOME</a>
+                              <a class="nav-link ui-show-mobile-only mx-3" href="#">HOME</a>
+                          </li>
+
+                          <li class="nav-item dropdown mx-3">
+                              <a class="nav-link ui-show-mobile-only" href="#">MEMBERSHIP</a>
+                              <a class="nav-link dropdown-toggle ui-hide-mobile-only" href="#" id="navbardrop" data-toggle="dropdown">
+                                  MEMBERSHIP
+                              </a>
+                              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Link 1</a>
+                                  <a class="dropdown-item" href="#">Link 2</a>
+                                  <a class="dropdown-item" href="#">Link 3</a>
+                              </div>
+                          </li>
+                          <li class="nav-item dropdown mx-3">
+                              <a class="nav-link ui-show-mobile-only" href="#">SERVICES</a>
+
+                              <a class="nav-link dropdown-toggle ui-hide-mobile-only" href="#" id="navbadrop" data-toggle="dropdown">
+                                  SERVICES
+                              </a>
+                              <div class="abt-line-serv ui-hide-mobile-only"></div>
+                              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Link 1</a>
+                                  <a class="dropdown-item" href="#">Link 2</a>
+                                  <a class="dropdown-item" href="#">Link 3</a>
+                              </div>
+                          </li>
+                          <li class="nav-item dropdown mx-3">
+                              <a class="nav-link dropdown-toggle ui-hide-mobile-only" href="#" id="navbydrop" data-toggle="dropdown">
+                                  ARMS
+                              </a>
+                              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Link 1</a>
+                                  <a class="dropdown-item" href="#">Link 2</a>
+                                  <a class="dropdown-item" href="#">Link 3</a>
+                              </div>
+                          </li>
+                          <li class="nav-item dropdown me-3">
+                              <a class="nav-link ui-show-mobile-only mx-3" href="#">ABOUT US</a>
+                              <a class="nav-link dropdown-toggle ui-hide-mobile-only" href="#" id="navbajrdrop" data-toggle="dropdown">
+                                  ABOUT US
+                              </a>
+                              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Link 1</a>
+                                  <a class="dropdown-item" href="#">Link 2</a>
+                                  <a class="dropdown-item" href="#">Link 3</a>
+                              </div>
+                          </li>
+
+                          <li class="nav-item ui-hide-mobile-only">
+                              <a class="btn big-btn bg-carifika onwhite" href="#">DONATE</a>
+                          </li>
+                          <li class="nav-item mx-3 ui-hide-mobile-only">
+                              <a class="btn big-btn bg-carifika ml-5 onwhite" href="#">GET A QUOTE</a>
+                          </li>
+                      </ul>
+                      <ul class="d-flex">
+                          <li class="nav-item">
+                              <a class="btn bg-carifika fs-15 onwhite  mx-3 ui-show-mobile-only" href="#">Log in </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="btn bg-carifika-o fs-15 onwhite ui-show-mobile-only" href="#">Sign up</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+
+          <!--Nav  -->
+      </header>
   <main>
    <!-- Main  starts -->
 
@@ -181,7 +242,7 @@
 
           <div class="col-md-8" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
             <div class="d-flex">
-              <img src="assets/images/map.svg" alt=".." />
+              <img src="assets/images/map.svg" class=" w-100" alt=".." />
             </div>
           </div>
         </div>
@@ -270,7 +331,7 @@
             <h2 class=" team-carifika on-blog fs-40">Carifika Head lorem ndum lorem</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="">
           <div class="row row-cols-1 row-cols-md-3 g-5">
             <div class="col">
               <div class="card-head">
@@ -306,7 +367,7 @@
 
     <div class="container">
       <div class="ui-wrapper">
-        <div class="row">
+        <div class="">
           <div class="row row-cols-1 row-cols-md-3 g-5">
             <div class="col">
               <div class="card-head">
@@ -533,23 +594,22 @@
 </footer>
 
 <script src="assets/js/bootstrapjs/bootstrap.min.js"></script>
-<script src="assets/js/third-party/jquery-3.2.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 
 <!-- Bootstrap JS -->
-<script src="assets/js/third-party/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- Popper JS -->
-<script src="assets/js/third-party/popper.min.js"></script>
-
-
-<!-- <script src="assets/js/pages/aos.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Owl-carousel -->
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
 <script src="assets/js/pages/custom.js"></script>
 <!-- Latest compiled JavaScript -->
-<script src="assets/js/bootstrapjs/bootstrap.min.js"></script>
- <!-- aos --><!-- aos -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
-  <!-- Owl-carousel -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
 
 <script>
 AOS.init({
