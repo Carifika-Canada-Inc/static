@@ -1,53 +1,3 @@
-/* images on top */
-.in {
-  background-image: url("../../images/linkedin.png");
-}
-
-.tw {
-  background-image: url("../../images/twitter.png");
-}
-
-.ig {
-  background-image: url("../../images/instagram.png");
-}
-
-.fb {
-  background-image: url("../../images/fb.png");
-}
-
-.c-light {
-  color: white;
-}
-
-.nav-b {
-  color: white;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-right: 1px solid white;
-}
-
-.nav-c {
-  color: white;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.p-2 {
-  margin-right: 10px;
-}
-
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.imgs {
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 16px;
-  height: 16px;
-}
 
 .hero-title h1 {
   margin-top: 2.3em !important;
@@ -56,41 +6,41 @@
 .count h1 {
   font-weight: bolder !important;
   color: #2f4858;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
 .carifika-about h1 {
   color: #c5ad57;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .abt h5 {
   font-size: 16px !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .history-p p {
   padding-left: 30px;
   font-size: 15px;
   padding-right: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .history p {
   margin-top: 21px;
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .abt p {
   font-size: 13px !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .carifika-about p {
   color: #c5ad57;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* hero - section */
@@ -110,14 +60,14 @@
 
 .team p {
   color: #2f4858 !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   margin-top: -8px;
 }
 
 .count p {
   color: #2f4858;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
@@ -125,7 +75,7 @@
 
 .carifika-service h1 span {
   font-weight: 600 !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Style the tab */
@@ -133,7 +83,7 @@
   overflow: hidden;
   border: none !important;
   background-color: transparent;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Style the buttons inside the tab */
@@ -145,7 +95,7 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 17px;
 }
 
@@ -157,7 +107,7 @@
 }
 
 .tablinks {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
 }
 
@@ -232,13 +182,13 @@
 
 .card-title {
   font-size: 25px !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
 }
 
 .card-text {
   font-size: 18px !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Blog post */
@@ -309,49 +259,12 @@
   width: 78%;
 }
 
-/* underliners here */
 .abt-line {
   border-bottom: 3px #c5ad57 solid;
   position: relative;
   top: -9px;
   width: 90%;
-}
-
-.abt-line-serv {
-  border-bottom: 3px #c5ad57 solid;
-  position: relative;
-  top: -9px;
-  width: 50%;
-  left: 20px;
-}
-
-.abt-line-sub {
-  border-bottom: 2px #c5ad57 solid;
-  position: relative;
-  top: -9px;
-  width: 25%;
-}
-
-/* highlights color */
-.txt-c {
-  color: #c5ad57;
-}
-
-.txt-d {
-  color: #6c7e88;
-}
-
-.bg-g {
-  background: #e8eaea;
-}
-
-.t-sm {
-  font-size: 13px;
-}
-
-/* custom padding for extra */
-.p-9 {
-  padding: 70px;
+  left: 13px;
 }
 
 .abt-img img {
@@ -361,11 +274,6 @@
   left: -9em;
   top: 14em;
   width: 111%;
-}
-
-/* padding controller */
-.pr {
-  padding-right: 50px;
 }
 
 .count {

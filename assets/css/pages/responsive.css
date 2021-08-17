@@ -1,0 +1,349 @@
+@media (max-width: 1199px) {
+  .main-nav .nav .nav-item.last {
+    margin-left: 5px;
+  }
+
+  .main-nav .nav .nav-item {
+    margin: 0.5rem 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 991px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carifika-service h1 {
+    font-weight: 600 !important;
+    font-size: 25px !important;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* hide object on ipad view only */
+
+  .container {
+    padding: 0 15px !important;
+  }
+
+  .hide-ipad {
+    display: none !important;
+  }
+
+  .abt-img img {
+    display: none;
+  }
+
+  /* tabs for services */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+  }
+
+  /* third section */
+
+  .card-title {
+    font-size: 12px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+  }
+
+  .card-text {
+    font-size: 13px !important;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .carifika-service span {
+    font-weight: 600 !important;
+    font-size: 25px !important;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .card-deck .card {
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 0.75rem !important;
+    margin-bottom: 0;
+    margin-left: 0.75rem !important;
+  }
+
+  /* abiout */
+  .abt-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 1.5rem 1rem;
+    position: relative;
+    background-color: #fff !important;
+  }
+
+  .c-abt {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .card-deck .card {
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 2.75rem !important;
+    margin-bottom: 0;
+    margin-left: 2.75rem !important;
+  }
+
+  .card-deck .car-head {
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 3.75rem !important;
+    margin-bottom: 0;
+    margin-left: 3.75rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* carifika team section */
+  .carifika-team h1 {
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px !important;
+  }
+
+  .hero-title h1 {
+    margin-top: 1em !important;
+    font-size: 40px !important;
+  }
+
+  .count h1 {
+    font-weight: bolder !important;
+    color: #2f4858;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .hero-title p {
+    margin-top: 0 !important;
+    font-size: 16px !important;
+  }
+
+  .count p {
+    color: #2f4858;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .team p {
+    font-size: 13px !important;
+  }
+
+  /* nav */
+  .navbar .ul {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    background-color: #c5ad57 !important;
+    border: none !important;
+  }
+
+  .navbar-brand img {
+    max-width: 82%;
+    height: 94px;
+  }
+
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+    -ms-flex-align: center;
+    -ms-flex-pack: justify;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: transparent;
+  }
+
+  /* hero */
+  .hero-section img {
+    display: none !important;
+  }
+
+  .hero-title img {
+    position: absolute;
+    z-index: -1;
+    top: 27px !important;
+    left: -6px !important;
+  }
+
+  .hero .ui-group-button {
+    margin-top: 0 !important;
+  }
+
+  .ui-wrapper-large {
+    width: 100%;
+    padding: 0 0;
+  }
+
+  /* carifka services */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+    padding: 14px 16px !important;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px !important;
+  }
+
+  .card-deck .card {
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 0 !important;
+    margin-bottom: 0;
+    margin-top: 1em;
+    margin-left: 0 !important;
+  }
+
+  .carifika-service h1 {
+    font-size: 34px !important;
+  }
+
+  .carifika-service h1 span {
+    font-size: 30px !important;
+  }
+
+  /* about */
+  .c-abt {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+
+  .carifika-about {
+    top: 57px;
+    background-color: #2f4858;
+
+    /* width: 105px; */
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 0;
+    padding-top: 46px;
+    padding-bottom: 29px;
+  }
+
+  .teeam {
+    border: 1px solid #efefef !important;
+    background: transparent !important;
+    border-radius: 10px !important;
+    padding: 1.5rem 2.5rem;
+    padding-bottom: 9em !important;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin: 0;
+    position: relative;
+  }
+
+  .teaam img {
+    width: 24% !important;
+    position: relative;
+    top: 3em;
+    z-index: 1;
+    left: 9em;
+  }
+
+  .soc {
+    width: 41% !important;
+    position: relative;
+    left: -34em;
+    top: 4em;
+    justify-content: space-between;
+  }
+}
+
+/* smaller screen sizes  */
+@media screen and (max-width: 375px) {
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+    padding: 14px 16px !important;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px !important;
+  }
+
+  .carifika-about {
+    top: 57px;
+    background-color: #2f4858;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 0;
+    padding-top: 46px;
+    padding-bottom: 29px;
+  }
+
+  .teeam {
+    border: 1px solid #efefef !important;
+    background: transparent !important;
+    border-radius: 10px !important;
+    padding: 1.5rem 2.5rem;
+    padding-bottom: 13em !important;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin: 0;
+    position: relative;
+  }
+
+  .teaam img {
+    width: 24% !important;
+    position: relative;
+    top: 2em;
+    z-index: 1;
+    left: 9em;
+  }
+
+  .soc {
+    width: 41% !important;
+    position: relative;
+    left: -34em;
+    top: 4em;
+    justify-content: space-between;
+  }
+}
