@@ -1,0 +1,51 @@
+.head-text {
+  width: 20rem;
+  margin-bottom: 60px;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-box {
+  width: 30rem;
+  margin: auto;
+  background-color: #ffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+input[type] {
+  background-color: #f8f9fa;
+}
+
+.inline {
+  display: inline;
+  margin-left: -10px;
+}
+
+.req {
+  margin-left: -6px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #c5ad57;
+  color: white;
+  margin: 50px 0;
+}
+
+.btn:active {
+  background-color: #998439;
+  box-shadow: 0 0 0 2px #fff, 0 0 5px 5px #998439;
+  outline: 2px dotted transparent;
+  outline-offset: 5px;
+}
+
+.btn:hover {
+  outline: none;
+  background-color: #998439;
+}
+
+.form-control:focus {
+  border-color: #c5ad57;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(197, 173, 87, 0.5);
+}
