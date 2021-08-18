@@ -8,11 +8,12 @@
   font-weight: bolder !important;
   color: #2f4858;
   font-family: 'Barlow', sans-serif;
+
   /* font-family: 'Montserrat', sans-serif; */
   text-align: center;
 }
 
-div.ui-wrapper-large{
+div.ui-wrapper-large {
   padding: 2em 0 !important;
 }
 
