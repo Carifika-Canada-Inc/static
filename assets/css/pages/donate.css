@@ -1,0 +1,16 @@
+
+/* variables with colors used in donate page */
+:root {
+    --primary-clr: #2F4858;
+    --second-clr: #C5AD57;
+    --white-clr: #fbfbf8;
+}
+
+/* Base */
+li {
+    list-style: none;
+}
+body {
+    background-color: var(--white-clr);
+    color: var(--primary-clr);
+}
