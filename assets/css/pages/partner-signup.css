@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.head-text {
+  width: 100%;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-left: -43px;
+  padding-right: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px !important;
+}
+
+.form-box {
+  width: 100%;
+  margin-bottom: 2em;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #ffff;
+  border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text {
+  width: 40rem;
+  margin: auto;
+}
+
+input[type] {
+  background-color: #f8f9fa;
+}
+
+.inline {
+  display: inline;
+  margin-left: -10px;
+}
+
+.req {
+  margin-left: -6px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+button.create {
+  background-color: #c5ad57;
+  color: white;
+  margin: 50px 0;
+}
+
+.btn:active {
+  background-color: #998439;
+  box-shadow: 0 0 0 2px #fff, 0 0 5px 5px #998439;
+  outline: 2px dotted transparent;
+  outline-offset: 5px;
+}
+
+.btn:hover {
+  outline: none;
+  color: #fff;
+  background-color: #998439 !important;
+}
+
+.form-control:focus {
+  border-color: #c5ad57;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(197, 173, 87, 0.5);
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .head-text {
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: 0;
+    padding-right: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px !important;
+  }
+}

@@ -1,18 +1,18 @@
 /* images on top */
 .in {
-  background-image: url("../../images/linkedin.png");
+  background-image: url("../../images/linkedin-brands1.svg");
 }
 
 .tw {
-  background-image: url("../../images/twitter.png");
+  background-image: url("../../images/twitter-brands1.svg");
 }
 
 .ig {
-  background-image: url("../../images/instagram.png");
+  background-image: url("../../images/instagram-brands1.svg");
 }
 
 .fb {
-  background-image: url("../../images/fb.png");
+  background-image: url("../../images/facebook-square-brands1.svg");
 }
 
 .c-light {

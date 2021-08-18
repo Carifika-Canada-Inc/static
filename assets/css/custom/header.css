@@ -49,9 +49,9 @@ a {
   color: #495057;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 40, 100, 0.12);
+  border: none !important;
   border-radius: 3px;
 }
 
