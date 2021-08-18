@@ -1,0 +1,181 @@
+/* Barlow font family link */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* variables with colors used in donate page */
+:root {
+  --primary-clr: #2f4858;
+  --second-clr: #c5ad57;
+  --white-clr: #fbfbf8;
+}
+
+/* Base */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white-clr);
+  color: var(--primary-clr);
+  font-family: "Barlow", sans-serif;
+}
+
+/* - main - */
+
+/* - Donate short description - */
+.donate-short-descriprion-n-image-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+/* - donate title at the top of page - */
+.donate-title {
+  font-weight: 800;
+  font-size: 1.8rem;
+  letter-spacing: 0.05rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* - donate description at the top of page - */
+.donate-description {
+  font-size: 1.15rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.7rem;
+  max-width: 35rem;
+}
+
+/* hand hold dolar sign image container */
+.donate-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* - main - */
+
+  /* - Donate short description - */
+  .donate-short-descriprion-n-image-container {
+    flex-direction: row;
+    align-items: center;
+    margin: 3rem 0;
+  }
+
+  /* - donate description at the top of page - */
+  .donate-description {
+    font-size: 1.11rem;
+    max-width: 30rem;
+  }
+}
+
+/* - Donate full description section - */
+.donate-full-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* - Each donate description title */
+.donate-desc-title {
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* - Each donate short description title */
+.donate-short-desc {
+  font-size: 1.15rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.7rem;
+  max-width: 30rem;
+  margin-bottom: 3rem;
+}
+
+/* - The gold line divider */
+.line-divider {
+  background-color: var(--second-clr);
+  height: 0.15rem;
+  width: 100%;
+}
+
+/* - Donate description and their arrow at left side - */
+.donate-full-desc-n-arrow_icon {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+}
+
+/* - Left arrow at  donate full description - */
+.donate-full-desc-n-arrow_icon img {
+  width: 1.05rem;
+  margin-right: 1.2rem;
+}
+
+/* - Donate full description after arrow */
+.donate-full-desc {
+  font-size: 1.12rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.7rem;
+  max-width: 30rem;
+}
+
+/* -- login and signup section -- */
+
+/* - Login and signup container - */
+.login-signup-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  margin: 2rem 0;
+}
+
+/* - Login and signup sub container - */
+.login-or-signup {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.login-n-signup-text-link {
+  color: var(--second-clr);
+}
+
+.login-n-signup-text-link:hover {
+  text-decoration: none;
+  color: var(--second-clr);
+}
+
+@media screen and (min-width: 1024px) {
+  /* hand hold dolar sign image container */
+  .donate-image {
+    display: block;
+    margin-left: 10rem;
+  }
+
+  /* hand hold dolar sign image */
+  .donate-image img {
+    width: 70%;
+  }
+
+  /* - Donate full description section - */
+  .donate-full-description-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* - The gold line divider - */
+  .line-divider {
+    height: 30rem;
+    width: 0.15rem;
+  }
+
+  /* - Login and signup container - */
+  .login-signup-container {
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+  }
+}
