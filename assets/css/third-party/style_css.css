@@ -1,5 +1,5 @@
 * { font-weight: normal !important; font-size: 16px; }
-body { overflow-x: hidden; background-color: #fbfbf8; font-family: 'montserratlight', sans-serif; color: #656972; line-height: 28px; font-size: 15px; font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { overflow-x: hidden; background-color: #fbfbf8; font-family: 'Barlow', sans-serif; color: #656972; line-height: 28px; font-size: 15px; font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 a { display: inline-block; color: #1f8ceb; }
 a:hover { text-decoration: none; color: #1f8ceb; }
 
@@ -8,7 +8,7 @@ h2,
 h3,
 h4,
 h5,
-h6 { font-family: "montserratlight", sans-serif; font-weight: 400; }
+h6 { font-family: 'Barlow', sans-serif; font-weight: 400; }
 .mt_20 { margin-top: 20px; }
 .mt_30 { margin-top: 30px; }
 .mt_50 { margin-top: 50px; }

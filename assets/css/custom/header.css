@@ -9,21 +9,26 @@
 }
 
 .navbar-brand {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Barlow', sans-serif;
   text-transform: uppercase;
 }
 
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 .header-top img {
   background-image: url('assets/images/about-hero.png');
 }
 
+.social-media {
+  color: #fff;
+}
+
 .first-nav {
-  height: 70px !important;
+  height: 60px !important;
   background: #2f4858 !important;
+  line-height: 12px;
 }
 
 /* nav bar drop down */

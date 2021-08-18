@@ -1,13 +1,19 @@
 
 .hero-title h1 {
   margin-top: 2.3em !important;
+  font-family: 'Barlow', sans-serif;
 }
 
 .count h1 {
   font-weight: bolder !important;
   color: #2f4858;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Barlow', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   text-align: center;
+}
+
+div.ui-wrapper-large{
+  padding: 2em 0 !important;
 }
 
 .carifika-about h1 {
