@@ -5,7 +5,7 @@ body {
 }
 
 .head-text {
-  width: 30rem;
+  /* width: 30rem; */
   margin-bottom: 60px;
   margin-top: 50px;
   color: #505050;
@@ -13,8 +13,8 @@ body {
 }
 
 .form-box {
-  width: 40rem;
-  margin: auto;
+  /* width: 40rem; */
+  /* margin: auto; */
   background-color: #ffff;
   font-family: "Montserrat", sans-serif;
 }

@@ -119,6 +119,15 @@
     margin-bottom: 0;
     margin-left: 3.75rem !important;
   }
+
+  .head-text {
+    width: 30rem;
+  }
+  
+  .form-box {
+    width: 40rem;
+    
+  }
 }
 
 @media screen and (max-width: 576px) {
