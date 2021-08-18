@@ -5,17 +5,21 @@ body {
 }
 
 .head-text {
-  /* width: 30rem; */
+  width: 100%;
   margin-bottom: 60px;
-  margin-top: 50px;
-  color: #505050;
+  margin-top: 60px;
+  margin-left: -43px;
   font-family: "Montserrat", sans-serif;
+  font-size: 25px !important;
 }
 
 .form-box {
-  /* width: 40rem; */
-  /* margin: auto; */
+  width: 100%;
+  margin-bottom: 2em;
+  padding-left: 0;
+  padding-right: 0;
   background-color: #ffff;
+  border-radius: 6px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -54,7 +58,8 @@ button.create {
 
 .btn:hover {
   outline: none;
-  background-color: #998439;
+  color: #fff;
+  background-color: #998439 !important;
 }
 
 .form-control:focus {
@@ -63,5 +68,23 @@ button.create {
 }
 
 main {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .head-text {
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: 0;
+    padding-right: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px !important;
+  }
 }
