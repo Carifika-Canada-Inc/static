@@ -9,7 +9,7 @@
 
 .form-box {
   width: 100%;
-  margin: auto;
+  margin-bottom: 2em;
   padding-left: 0;
   padding-right: 0;
   background-color: #ffff;
@@ -35,7 +35,7 @@ input[type] {
 .btn {
   background-color: #c5ad57;
   color: white;
-  margin: 50px 0;
+  margin: 10px 0 30px 0;
 }
 
 .btn:active {
