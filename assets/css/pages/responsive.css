@@ -13,6 +13,11 @@
   .hide-desktop {
     display: none !important;
   }
+
+  .heading {
+    margin-left: 230px;
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (max-width: 900px) {
